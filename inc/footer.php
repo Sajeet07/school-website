@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6" data-aos="fade-in" data-aos-duration="1050">
                         <a href="index.html">
-                            <img src="assets/images/lagrandee-logo.PNG" class="img-fluid mb-3" alt="Edusquad">
+                        <img width=200  src="assets/images/whiteschool.PNG"  alt="Edusquad">
                         </a>
                         <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
                         <ul class="social-icon">
@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="bottom-footer py-3 d-flex justify-content-between">
-                <p class="mb-0">2020 &copy; All Rights Reserved.</a></p>
+                <p class="mb-0">Copyright 2021 © Mero School, All rights reserved.</a></p>
                 <ul class="list-inline mb-0">
                     <li class="list-inline-item"><a href="javascript:">Terms of use</a></li>
                     <li class="list-inline-item"><a href="javascript:">Privacy policy</a></li>

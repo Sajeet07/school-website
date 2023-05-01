@@ -37,12 +37,14 @@
                             <div class="form-group">
                                 <label for="exampleInputNumber">Phone Number</label>
                                 <input  class="form-control" id="exampleInputNumber"
-                                        placeholder="Enter Number" type="email">
+                                        placeholder="Enter Number" type="number">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputMessage">Message</label>
-                                <input class="form-control" id="exampleInputMessage"
-                                       placeholder="Message" type="email">
+                                <div class="form-group">
+                                  <label for=""></label>
+                                  <textarea class="form-control" name="" id="exampleInputMessage" rows="3"  placeholder="Message"></textarea>
+                               
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" id="exampleCheck1" type="checkbox">

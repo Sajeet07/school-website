@@ -38,7 +38,7 @@
         <div class="container">
             <div class="row align-content-center">
                 
-                <div class="col-xl-2 col-lg-3 col-md-4 py-2 font-weight-bold f-15 announcement">
+                <div class="ol-xl-2 col-lg-3 col-md-4 py-2 font-weight-bold f-15 announcement">
                     <i class="fa fa-bullhorn mr-3"></i><span>Announcement</span>
                 </div>
                 <div class="col-xl-7 col-lg-5 col-md-8">

@@ -11,14 +11,17 @@
         </ul>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/images/principalsir.png" alt="education" class="img-fluid">
+                <img src="assets/images/newcover.jpg" alt="education" class="img-fluid">
                 <div class="carousel-caption animated fadeInLeft delay-0.5s">
+                <h1 class="font-weight-bold">Mero School</h1>
+                    <h6 class="banner-desc">Learn through reality attend in humanity</h6>
+                    <a href="javascript:" class="theme-orange btn mt-3 apply-now">Apply Now</a>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="assets/images/banner_2.jpg" alt="education" class="img-fluid">
                 <div class="carousel-caption animated fadeInUp delay-0.5s">
-                    <h1 class="font-weight-bold">La Grandee Academy</h1>
+                    <h1 class="font-weight-bold">Mero School</h1>
                     <h6 class="banner-desc">Education is what remains after one has forgotten what one has learned
                         in
                         school.</h6>
@@ -28,7 +31,7 @@
             <div class="carousel-item">
                 <img src="assets/images/banner_3.jpg" alt="education" class="img-fluid">
                 <div class="carousel-caption animated fadeInDown delay-0.5s">
-                    <h1 class="font-weight-bold">La Grandee Academy</h1>
+                    <h1 class="font-weight-bold">Mero School</h1>
                     <h6 class="banner-desc">Education is not the filling of a pail, but the lighting of a
                         fire.</h6>
                     <a href="javascript:" class="theme-orange btn mt-3 apply-now">Apply Now</a>
@@ -37,7 +40,7 @@
             <div class="carousel-item">
                 <img src="assets/images/banner_4.jpg" alt="education" class="img-fluid">
                 <div class="carousel-caption animated zoomIn delay-0.5s">
-                    <h1 class="font-weight-bold">La Grandee Academy</h1>
+                    <h1 class="font-weight-bold">Mero School</h1>
                     <h6 class="banner-desc">Education is not preparation for life; education is life itself.</h6>
                     <a href="javascript:" class="theme-orange btn mt-3 apply-now">Apply Now</a>
                 </div>
