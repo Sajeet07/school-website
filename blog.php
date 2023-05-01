@@ -28,7 +28,7 @@
                                 <span class="mr-3"><i class="fa fa-user mr-3 color-orange"></i>Admin</span>
                                 <span class="mr-3"><i class="fa fa-comments mr-3 color-orange"></i>Comments</span>
                             </div>
-                            <a class="btn color-orange read-more mt-3" href="blog-detail.html">Read More</a>
+                            <a class="btn color-orange read-more mt-3" href="blog-detail.php">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                                 <span class="mr-3"><i class="fa fa-user mr-3 color-orange"></i>Admin</span>
                                 <span class="mr-3"><i class="fa fa-comments mr-3 color-orange"></i>Comments</span>
                             </div>
-                            <a class="btn color-orange read-more mt-3" href="blog-detail.html">Read More</a>
+                            <a class="btn color-orange read-more mt-3" href="blog-detail.php">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                                 <span class="mr-3"><i class="fa fa-user mr-3 color-orange"></i>Admin</span>
                                 <span class="mr-3"><i class="fa fa-comments mr-3 color-orange"></i>Comments</span>
                             </div>
-                            <a class="btn color-orange read-more mt-3" href="blog-detail.html">Read More</a>
+                            <a class="btn color-orange read-more mt-3" href="blog-detail.php">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                                 <span class="mr-3"><i class="fa fa-user mr-3 color-orange"></i>Admin</span>
                                 <span class="mr-3"><i class="fa fa-comments mr-3 color-orange"></i>Comments</span>
                             </div>
-                            <a class="btn color-orange read-more mt-3" href="blog-detail.html">Read More</a>
+                            <a class="btn color-orange read-more mt-3" href="blog-detail.php">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
                                 <span class="mr-3"><i class="fa fa-user mr-3 color-orange"></i>Admin</span>
                                 <span class="mr-3"><i class="fa fa-comments mr-3 color-orange"></i>Comments</span>
                             </div>
-                            <a class="btn color-orange read-more mt-3" href="blog-detail.html">Read More</a>
+                            <a class="btn color-orange read-more mt-3" href="blog-detail.php">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -115,7 +115,7 @@
                                 <span class="mr-3"><i class="fa fa-user mr-3 color-orange"></i>Admin</span>
                                 <span class="mr-3"><i class="fa fa-comments mr-3 color-orange"></i>Comments</span>
                             </div>
-                            <a class="btn color-orange read-more mt-3" href="blog-detail.html">Read More</a>
+                            <a class="btn color-orange read-more mt-3" href="blog-detail.php">Read More</a>
                         </div>
                     </div>
                 </div>

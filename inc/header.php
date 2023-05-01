@@ -71,6 +71,9 @@
                             <a class="nav-link" href="about.php">About</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="blog.php">Blog</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="achievement.php">Scholarships & Awards</a>
                         </li>
                         <li class="nav-item">

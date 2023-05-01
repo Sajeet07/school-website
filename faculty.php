@@ -4,30 +4,30 @@
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="sidenav-links pt-4">
-            <a href="index.html">Home</a>
+            <a href="index.php">Home</a>
             <button class="dropdown-btn">About Us
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-container">
-                <a href="about.html"> <i class="fa fa-caret-right mr-3"></i>Who We Are</a>
-                <a href="course.html"><i class="fa fa-caret-right mr-3"></i>Facaulties</a>
-                <a href="achievement.html"><i class="fa fa-caret-right mr-3"></i>Achievement</a>
+                <a href="about.php"> <i class="fa fa-caret-right mr-3"></i>Who We Are</a>
+                <a href="course.php"><i class="fa fa-caret-right mr-3"></i>Facaulties</a>
+                <a href="achievement.php"><i class="fa fa-caret-right mr-3"></i>Achievement</a>
             </div>
             <button class="dropdown-btn">Academics
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-container">
                 
-                <a href="result.html"><i class="fa fa-caret-right mr-3"></i>Result</a>
-                <a href="student.html"><i class="fa fa-caret-right mr-3"></i>School</a>
-                <a href="student.html"><i class="fa fa-caret-right mr-3"></i>+2</a>
-                <a href="achievement.html"><i class="fa fa-caret-right mr-3"></i>Scholarship & Awards</a>
+                <a href="result.php"><i class="fa fa-caret-right mr-3"></i>Result</a>
+                <a href="student.php"><i class="fa fa-caret-right mr-3"></i>School</a>
+                <a href="student.php"><i class="fa fa-caret-right mr-3"></i>+2</a>
+                <a href="achievement.php"><i class="fa fa-caret-right mr-3"></i>Scholarship & Awards</a>
                 
             </div>
-            <a href="gallery.html">Gallery</a>
-            <a href="blog.html">News & Events</a>
-            <a href="career.html">Career</a>
-            <a href="contact.html">Contact</a>
+            <a href="gallery.php">Gallery</a>
+            <a href="blog.php">News & Events</a>
+            <a href="career.php">Career</a>
+            <a href="contact.php">Contact</a>
         </div>
     </div>
     <!-- end side menu -->

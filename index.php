@@ -116,8 +116,8 @@
             <h5 class="pt-3">KIRAN KC</h5>
             <p>Principal</p>
             <div class="button-box">
-                <a href="about.html" class="left-btn">More About Us</a>
-                <a href="contact.html" class="right-btn">Contact Us</a>
+                <a href="about.php" class="left-btn">More About Us</a>
+                <a href="contact.php" class="right-btn">Contact Us</a>
                
             </div>
         </div>
@@ -739,7 +739,7 @@
                                 <span class="mr-3"><i class="fa fa-user mr-3 color-orange"></i>Admin</span>
                                 <span class="mr-3"><i class="fa fa-comments mr-3 color-orange"></i>Comments</span>
                             </div>
-                            <a href="blog-detail.html" class="btn color-orange read-more mt-3">Read More</a>
+                            <a href="blog-detail.php" class="btn color-orange read-more mt-3">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -757,7 +757,7 @@
                                 <span class="mr-3"><i class="fa fa-user mr-3 color-orange"></i>Admin</span>
                                 <span class="mr-3"><i class="fa fa-comments mr-3 color-orange"></i>Comments</span>
                             </div>
-                            <a href="blog-detail.html" class="btn color-orange read-more mt-3">Read More</a>
+                            <a href="blog-detail.php" class="btn color-orange read-more mt-3">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -776,7 +776,7 @@
                                 <span class="mr-3"><i class="fa fa-user mr-3 color-orange"></i>Admin</span>
                                 <span class="mr-3"><i class="fa fa-comments mr-3 color-orange"></i>Comments</span>
                             </div>
-                            <a href="blog-detail.html" class="btn color-orange read-more mt-3">Read More</a>
+                            <a href="blog-detail.php" class="btn color-orange read-more mt-3">Read More</a>
                         </div>
                     </div>
                 </div>

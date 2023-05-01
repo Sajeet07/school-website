@@ -52,7 +52,7 @@
 <script src="assets/js/script.js"></script>
 </body>
 
-<!-- Mirrored from radixtouch.in/flexweb_template/edusquad_theme/edusquad-preview/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Dec 2020 18:33:56 GMT -->
+<!-- Mirrored from radixtouch.in/flexweb_template/edusquad_theme/edusquad-preview/about.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Dec 2020 18:33:56 GMT -->
 </html>
 
 

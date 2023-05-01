@@ -37,7 +37,7 @@
                             <div class="form-group">
                                 <label for="exampleInputNumber">Phone Number</label>
                                 <input  class="form-control" id="exampleInputNumber"
-                                        placeholder="Enter Number" type="number">
+                                        placeholder="Enter Number" type="number4">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputMessage">Message</label>
