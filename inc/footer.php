@@ -16,13 +16,12 @@
                     <div class="col-lg-2 col-md-6" data-aos="fade-in" data-aos-duration="550">
                         <h5 class="font-weight-bold mb-3">Quick Links</h5>
                         <ul>
-                            <li><a href="index.html"><i class="fa fa-angle-double-right mr-2"></i>Home</a></li>
-                            <li><a href="about.html"><i class="fa fa-angle-double-right mr-2"></i>About Us</a></li>
-                            <li><a href="student.html"><i class="fa fa-angle-double-right mr-2"></i>School</a></li>
-                            <li><a href="faculties.html"><i class="fa fa-angle-double-right mr-2"></i>Faculties</a></li>
-                            <li><a href="achievement.html"><i class="fa fa-angle-double-right mr-2"></i>Achievenment</a></li>
-                            <li><a href="career.html"><i class="fa fa-angle-double-right mr-2"></i>Career</a></li>
-                            <li><a href="contact.html"><i class="fa fa-angle-double-right mr-2"></i>Contact</a></li>
+                            <li><a href="index.php"><i class="fa fa-angle-double-right mr-2"></i>Home</a></li>
+                            <li><a href="about.php"><i class="fa fa-angle-double-right mr-2"></i>About Us</a></li>
+                            <li><a href="student.php"><i class="fa fa-angle-double-right mr-2"></i>School</a></li>
+                            <li><a href="faculty.php"><i class="fa fa-angle-double-right mr-2"></i>Faculties</a></li>
+                            <li><a href="achievement.php"><i class="fa fa-angle-double-right mr-2"></i>Achievenment</a></li>
+                            <li><a href="contact.php"><i class="fa fa-angle-double-right mr-2"></i>Contact</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 mb-md-5 mb-4" data-aos="fade-in" data-aos-duration="1050">

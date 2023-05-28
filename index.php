@@ -3,50 +3,42 @@
 
     <!-- start slider -->
     <div id="demo" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-            <li data-target="#demo" data-slide-to="3"></li>
-        </ul>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="assets/images/newcover.jpg" alt="education" class="img-fluid">
+    <ul class="carousel-indicators">
+        <?php
+        require('connection/config.php');
+
+        // Fetch slider data from the database
+        $sql = "SELECT * FROM sliders";
+        $result = mysqli_query($conn, $sql);
+        $sliders = mysqli_fetch_all($result, MYSQLI_ASSOC);
+        $numSliders = count($sliders);
+
+        for ($i = 0; $i < $numSliders; $i++) {
+            $activeClass = ($i == 0) ? 'active' : '';
+        ?>
+            <li data-target="#demo" data-slide-to="<?= $i; ?>" class="<?= $activeClass; ?>"></li>
+        <?php
+        }
+        ?>
+    </ul>
+    <div class="carousel-inner">
+        <?php
+        foreach ($sliders as $index => $slider) {
+            $activeClass = ($index == 0) ? 'active' : '';
+        ?>
+            <div class="carousel-item <?= $activeClass; ?>">
+                <img src="<?= $slider['assets/images/']; ?>" alt="<?= $slider['alt_text']; ?>" class="img-fluid">
                 <div class="carousel-caption animated fadeInLeft delay-0.5s">
-                <h1 class="font-weight-bold">Mero School</h1>
-                    <h6 class="banner-desc">Learn through reality attend in humanity</h6>
-                    <a href="javascript:" class="theme-orange btn mt-3 apply-now">Apply Now</a>
+                    <h1 class="font-weight-bold"><?= $slider['h1']; ?></h1>
+                    <h6 class="banner-desc"><?= $slider['p']; ?></h6>
+                    <a href="<?= $slider['btn_link']; ?>" class="theme-orange btn mt-3 apply-now"><?= $slider['btn_txt']; ?></a>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="assets/images/banner_2.jpg" alt="education" class="img-fluid">
-                <div class="carousel-caption animated fadeInUp delay-0.5s">
-                    <h1 class="font-weight-bold">Mero School</h1>
-                    <h6 class="banner-desc">Education is what remains after one has forgotten what one has learned
-                        in
-                        school.</h6>
-                    <a href="javascript:" class="theme-orange btn mt-3 apply-now">Apply Now</a>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="assets/images/banner_3.jpg" alt="education" class="img-fluid">
-                <div class="carousel-caption animated fadeInDown delay-0.5s">
-                    <h1 class="font-weight-bold">Mero School</h1>
-                    <h6 class="banner-desc">Education is not the filling of a pail, but the lighting of a
-                        fire.</h6>
-                    <a href="javascript:" class="theme-orange btn mt-3 apply-now">Apply Now</a>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="assets/images/banner_4.jpg" alt="education" class="img-fluid">
-                <div class="carousel-caption animated zoomIn delay-0.5s">
-                    <h1 class="font-weight-bold">Mero School</h1>
-                    <h6 class="banner-desc">Education is not preparation for life; education is life itself.</h6>
-                    <a href="javascript:" class="theme-orange btn mt-3 apply-now">Apply Now</a>
-                </div>
-            </div>
-        </div>
+        <?php
+        }
+        ?>
     </div>
+</div>
     <!-- end slider -->
     <!-- start counter -->
     <section class="counter-section">

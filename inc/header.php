@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css"/>
     <link rel="stylesheet" href="assets/css/themify-icons.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="../admin/plugins/ekko-lightbox/ekko-lightbox.css">
 </head>
 <!--start preloader-->
 <div class="preloader">
