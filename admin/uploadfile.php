@@ -38,7 +38,6 @@ require('inc/sidebar.php');
             <?php
               if(isset($_POST['submit'])) {
                 $filename = $_POST['filename'];
-
                 $dataFile = $_FILES['dataFile']['name'];
                 //$dataFile consist info like hello.jpg
                 $filesize = $_FILES['dataFile']['size'];

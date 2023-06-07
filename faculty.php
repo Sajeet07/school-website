@@ -26,7 +26,6 @@
             </div>
             <a href="gallery.php">Gallery</a>
             <a href="blog.php">News & Events</a>
-            <a href="career.php">Career</a>
             <a href="contact.php">Contact</a>
         </div>
     </div>

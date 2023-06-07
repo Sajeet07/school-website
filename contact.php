@@ -3,87 +3,77 @@
 
     <!-- start inner-banner -->
     <section class="inner-banner">
-        <h1 class="font-weight-bold text-center">Contact Us</h1>
-    </section>
-    <!-- end inner-banner -->
-    <!-- start contact -->
-    <section class="contact-section">
-        <div class="container">
-            <div class="sec-title text-center mb-3" data-aos="fade-up" data-aos-duration="1000">
-                <span class="title">Get In Touch</span>
-                <h2>We’d Love To Here From You</h2>
-                <div class="divider">
-                    <span class="fa fa-mortar-board"></span>
+    <h1 class="font-weight-bold text-center">Contact Us</h1>
+</section>
+<!-- end inner-banner -->
+<!-- start contact -->
+<section class="contact-section">
+    <div class="container">
+        <div class="sec-title text-center mb-3" data-aos="fade-up" data-aos-duration="1000">
+            <span class="title">Get In Touch</span>
+            <h2>We’d Love To Hear From You</h2>
+            <div class="divider">
+                <span class="fa fa-mortar-board"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-md-8">
+                <div class="contact-form p-5" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="border-line"></div>
+                    <h3 class="font-weight-bold color-orange">Drop Message</h3>
+                    <form method="post" action="process_contact.php">
+                        <div class="form-group">
+                            <label for="exampleInputName">Name</label>
+                            <input class="form-control" id="exampleInputName" name="name" placeholder="Enter Name" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email Address</label>
+                            <input class="form-control" id="exampleInputEmail1" name="email" placeholder="Enter Email" type="email">
+                            <small class="form-text text-muted" id="emailHelp">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputNumber">Phone Number</label>
+                            <input class="form-control" id="exampleInputNumber" name="phone" placeholder="Enter Number" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputMessage">Message</label>
+                            <textarea class="form-control" name="message" id="exampleInputMessage" rows="3" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" id="exampleCheck1" name="checkbox" type="checkbox">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button class="btn theme-orange border-0 mt-4" type="submit">Send Message</button>
+                    </form>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-8 col-md-8">
-                    <div class="contact-form p-5" data-aos="zoom-in" data-aos-duration="1000">
-                        <div class="border-line"></div>
-                        <h3 class="font-weight-bold color-orange">Drop Message</h3>
-                        <form>
-                            <div class="form-group">
-                                <label for="exampleInputName">Name</label>
-                                <input class="form-control" id="exampleInputName" placeholder="Enter Name" type="text">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Email Address</label>
-                                <input class="form-control" id="exampleInputEmail1"
-                                       placeholder="Enter Email" type="email">
-                                <small class="form-text text-muted" id="emailHelp">We'll never share your email with anyone
-                                    else.
-                                </small>
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputNumber">Phone Number</label>
-                                <input  class="form-control" id="exampleInputNumber"
-                                        placeholder="Enter Number" type="number4">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputMessage">Message</label>
-                                <div class="form-group">
-                                  <label for=""></label>
-                                  <textarea class="form-control" name="" id="exampleInputMessage" rows="3"  placeholder="Message"></textarea>
-                               
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" id="exampleCheck1" type="checkbox">
-                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                            </div>
-                            <button class="btn theme-orange border-0 mt-4" type="submit">Send Message</button>
-                        </form>
+            <div class="col-lg-4 col-md-4 ml-minus">
+                <div class="media p-3 align-items-center theme-blue mb-3" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="media-body text-left">
+                        <h6 class="color-orange font-weight-bold mb-1">Address</h6>
+                        <p class="mb-0">Srijana chowk Pokhara, Kaski</p>
                     </div>
+                    <img class="img-fluid contact-icon" data-aos="zoom-in" data-aos-duration="1050" src="assets/images/icons/location.png" alt="Location">
                 </div>
-                <div class="col-lg-4 col-md-4 ml-minus">
-                    <div class="media p-3 align-items-center theme-blue mb-3" data-aos="zoom-in" data-aos-duration="1000">
-                        <div class="media-body text-left">
-                            <h6 class="color-orange font-weight-bold mb-1">Address</h6>
-                            <p class="mb-0">Srijana chowk Pokhara,
-                                Kaski</p>
-                        </div>
-                        <img class="img-fluid contact-icon" data-aos="zoom-in" data-aos-duration="1050"
-                             src="assets/images/icons/location.png" alt="Location">
+                <div class="media p-3 align-items-center theme-blue mb-3" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="media-body text-left">
+                        <h6 class="color-orange font-weight-bold mb-1">Email</h6>
+                        <p class="mb-0">example@gmail.com</p>
                     </div>
-                    <div class="media p-3 align-items-center theme-blue mb-3" data-aos="zoom-in" data-aos-duration="1000">
-                        <div class="media-body text-left">
-                            <h6 class="color-orange font-weight-bold mb-1">Email</h6>
-                            <p class="mb-0">example@gmail.com</p>
-                        </div>
-                        <img class="img-fluid contact-icon" data-aos="zoom-in" data-aos-duration="1500"
-                             src="assets/images/icons/mail.png" alt="Mail">
+                    <img class="img-fluid contact-icon" data-aos="zoom-in" data-aos-duration="1500" src="assets/images/icons/mail.png" alt="Mail">
+                </div>
+                <div class="media p-3 align-items-center theme-blue" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="media-body text-left">
+                        <h6 class="color-orange font-weight-bold mb-1">Contact Number</h6>
+                        <p class="mb-0">+977-1234567890</p>
                     </div>
-                    <div class="media p-3 align-items-center theme-blue" data-aos="zoom-in" data-aos-duration="1000">
-                        <div class="media-body text-left">
-                            <h6 class="color-orange font-weight-bold mb-1">Contact Number</h6>
-                            <p class="mb-0">+977-1234567890</p>
-                        </div>
-                        <img class="img-fluid contact-icon" data-aos="zoom-in" data-aos-duration="1050"
-                             src="assets/images/icons/call.png" alt="Call">
-                    </div>
+                    <img class="img-fluid contact-icon" data-aos="zoom-in" data-aos-duration="1050" src="assets/images/icons/call.png" alt="Call">
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+zX 
     <!-- end contact -->
     <!-- start map -->
     <section class="map">

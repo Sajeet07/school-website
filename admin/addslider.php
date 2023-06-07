@@ -110,7 +110,7 @@ require('inc/sidebar.php');
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Slider Image Link</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" name="img" placeholder="">
+                    <input type="file" class="form-control" id="exampleInputEmail1" name="img" placeholder="">
                   </div>
                 </div>
                 <!-- /.card-body -->

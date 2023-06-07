@@ -65,7 +65,7 @@ require('inc/sidebar.php');
                         <a name="" id="" class="btn btn-danger btn-xs" href="process/deleteslider.php?id=<?php echo $data['id']; ?>" role="button">Delete</a>
                     </td>
                     <td><?php echo $data['name']; ?></td>
-                    <td> <img src="../uploads/<?php echo $data['img'];?>" alt="" height="80px;" width="80px;"></td>
+                    <td> <img src="../assets/images/<?php echo $data['img'];?>" alt="" height="80px;" width="80px;"></td>
                   </tr>
                     <?php
                   }

@@ -82,10 +82,13 @@
                             <a class="nav-link" href="gallery.php">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="blog.php">News & Events</a>
+                            <a class="nav-link" href="notice.php">Notices & Events</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.php">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost/school-website-main/admin/index.php">login</a>
                         </li>
                     </ul>
                 </div>
@@ -101,7 +104,7 @@
             <a href="index.php">About</a>
             <a href="achievement.php">Scholarship & Awards</a>
             <a href="gallery.php">Gallery</a>
-            <a href="blog.php">News & Events</a>
+            <a href="notice.php">Notice & Events</a>
             <a href="contact.php">Contact</a>
         </div>
     </div>

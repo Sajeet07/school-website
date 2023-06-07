@@ -36,7 +36,7 @@ require('inc/sidebar.php');
           <div class="col-md-12">
           <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Manage About Us</h3>
+                <h3 class="card-title">Manage About us</h3>
               </div>
               <!-- /.card-header -->
               <div class="card-body">
@@ -46,8 +46,9 @@ require('inc/sidebar.php');
                     <th>S.N.</th>
                     <th>Action</th>
                     <th>Year</th>
+                    <th>Heading</th>
                     <th>Paragraph</th>
-                    <th> Image</th>
+                    <th>Image</th>
                   </tr>
                   </thead>
                   <tbody>
@@ -66,8 +67,9 @@ require('inc/sidebar.php');
                         <a name="" id="" class="btn btn-danger btn-xs" href="process/deleteaboutus.php?id=<?php echo $data['id']; ?>" role="button">Delete</a>
                     </td>
                     <td><?php echo $data['year']; ?></td>
+                    <td><?php echo $data['h1']; ?></td>
                     <td><?php echo $data['p']; ?></td>
-                    <td> <img src="../uploads/<?php echo $data['img'];?>" alt="" height="80px;" width="80px;"></td>
+                    <td> <img src="../assets/images/<?php echo $data['img'];?>" alt="" height="80px;" width="80px;"></td>
                   </tr>
                     <?php
                   }

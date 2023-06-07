@@ -3,7 +3,8 @@
 
     <!-- start slider -->
     <div id="demo" class="carousel slide" data-ride="carousel">
-    <ul class="carousel-indicators">
+    <ul class="carousel-indicators " style="margin-bottom: 49px;">
+  
         <?php
         require('connection/config.php');
 
@@ -27,7 +28,7 @@
             $activeClass = ($index == 0) ? 'active' : '';
         ?>
             <div class="carousel-item <?= $activeClass; ?>">
-                <img src="<?= $slider['assets/images/']; ?>" alt="<?= $slider['alt_text']; ?>" class="img-fluid">
+                <img src="<?= "assets/images/".$slider['img']; ?>" alt="<?= $slider['alt_text']; ?>" class="img-fluid">
                 <div class="carousel-caption animated fadeInLeft delay-0.5s">
                     <h1 class="font-weight-bold"><?= $slider['h1']; ?></h1>
                     <h6 class="banner-desc"><?= $slider['p']; ?></h6>
@@ -39,131 +40,54 @@
         ?>
     </div>
 </div>
-    <!-- end slider -->
-    <!-- start counter -->
-    <section class="counter-section">
-        <div class="container">
-            <div class="counter-box">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="counter" data-aos="fade-up" data-aos-duration="550">
-                            <div class="border-line"></div>
-                            <div class="counter-img">
-                                <!-- <img src="assets/images/icons/teacher.png" class="img-fluid" alt=teacher> -->
-                            </div>
-                            <h5 class="count-text mt-2">Teachers</h5><br>
-                            <h6>More than</h6>
-                            <h2 class="timer count-title count-number" data-to="30" data-speed="1500"></h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="counter mt-xl-0 mt-lg-0 mt-md-0 mt-sm-0 mt-3" data-aos="fade-up" data-aos-duration="550">
-                            <div class="border-line"></div>
-                            <div class="counter-img">
-                                <!-- <img src="assets/images/icons/classroom.png" class="img-fluid" alt="classroom"> -->
-                            </div>
-                            <h5 class="count-text mt-2">Classroom</h5><br>
-                            <h6>More than</h6>
-                            <h2 class="timer count-title count-number" data-to="40" data-speed="1500"></h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="counter mt-xl-0 mt-lg-0 mt-md-4 mt-sm-3 mt-3" data-aos="fade-up" data-aos-duration="550">
-                            <div class="border-line"></div>
-                            <div class="counter-img">
-                                <!-- <img src="assets/images/icons/career.png" class="img-fluid" alt="career"> -->
-                            </div>
-                            <h5 class="count-text mt-2">Career</h5><br>
-                            <h6>More than</h6>
-                            <h2 class="timer count-title count-number" data-to="1000" data-speed="1500"></h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="counter mt-xl-0 mt-lg-0 mt-md-4 mt-sm-3 mt-3" data-aos="fade-up" data-aos-duration="550">
-                            <div class="border-line"></div>
-                            <div class="counter-img">
-                                <!-- <img src="assets/images/icons/activity.png" class="img-fluid" alt="activity"> -->
-                            </div>
-                            <h5 class="count-text mt-2">Activities</h5><br>
-                            <h6>More than</h6>
-                            <h2 class="timer count-title count-number" data-to="1000" data-speed="1500"></h2>
-                        </div>
-                    </div>
+<!-- end slider -->
+<section class="target custom-margin-top" style="margin-top: 50px">
+    <div class="container">
+        <div class="sec-title text-center bg-fill mb-3">
+            <span class="title" style="color:white !important">Why Choose Us</span>
+            <h2 class="text-white">Ethics Behind Success</h2>
+            <div class="divider">
+                <span class="fa fa-mortar-board"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="target-block text-white p-5 mb-lg-0 mb-xl-0 mb-md-0 mb-sm-5 mb-5" data-aos="fade-up"
+                    data-aos-duration="550">
+                    <div class="border-line"></div>
+                    <i class="fa fa-users fa-3x color-orange mb-3 target-icon"></i>
+                    <h4 class="font-weight-bold">Skilled Lecturers</h4>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="target-block text-white p-5 mb-lg-0 mb-xl-0 mb-md-0 mb-sm-5 mb-5" data-aos="fade-up"
+                    data-aos-duration="550">
+                    <div class="border-line"></div>
+                    <i class="fa fa-mortar-board fa-3x color-orange mb-3 target-icon"></i>
+                    <h4 class="font-weight-bold">Scholarship Facility</h4>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="target-block text-white p-5" data-aos="fade-up" data-aos-duration="550">
+                    <div class="border-line"></div>
+                    <i class="fa fa-book fa-3x color-orange mb-3 target-icon"></i>
+                    <h4 class="font-weight-bold">Library & Lab</h4>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+
                 </div>
             </div>
 
         </div>
-    </section>
-    <!-- end counter -->
-    <!-- start about us -->
-    <section class="about-us" data-aos="fade-up" data-aos-duration="950">
-        <div class="container">
-           
-            <h5 data-aos="fade-up" data-aos-duration="1050">Key to unlock the golden door of freedom.</h5>
-            <h2 class="font-weight-bold pb-3 px-5 mb-0" data-aos="fade-up" data-aos-duration="1050">Education develop a
-                passion for learning.If you do, you will never cease to grow.</h2>
-            <p class="bottom-line">Ensuring quality higher education is one of the most important things we can do for
-                future generations.</p>
+    </div>
+</section>
 
-            <h5 class="pt-3">KIRAN KC</h5>
-            <p>Principal</p>
-            <div class="button-box">
-                <a href="about.php" class="left-btn">More About Us</a>
-                <a href="contact.php" class="right-btn">Contact Us</a>
-               
-            </div>
-        </div>
-    </section>
-    <!-- end about us -->
-    <!-- start target -->
-    <section class="target">
-        <div class="container">
-            <div class="sec-title text-center bg-fill mb-3">
-                <span class="title" style="color:white !important" >Why Choose Us</span>
-                <h2 class="text-white">Ethics Behind Success</h2>
-                <div class="divider">
-                    <span class="fa fa-mortar-board"></span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="target-block text-white p-5 mb-lg-0 mb-xl-0 mb-md-0 mb-sm-5 mb-5" data-aos="fade-up"
-                         data-aos-duration="550">
-                        <div class="border-line"></div>
-                        <i class="fa fa-users fa-3x color-orange mb-3 target-icon"></i>
-                        <h4 class="font-weight-bold">Skilled Lecturers</h4>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-                        <a href="javascript:" class="btn text-white pl-0">Read More<i
-                                class="fa fa-angle-double-right ml-2"></i></a>
-                    </div>
-                </div>
 
-                <div class="col-md-4">
-                    <div class="target-block text-white  p-5 mb-lg-0 mb-xl-0 mb-md-0 mb-sm-5 mb-5" data-aos="fade-up"
-                         data-aos-duration="550">
-                        <div class="border-line"></div>
-                        <i class="fa fa-mortar-board fa-3x color-orange mb-3 target-icon"></i>
-                        <h4 class="font-weight-bold">Scholarship Facility</h4>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-                        <a href="javascript:" class="btn text-white pl-0">Read More<i
-                                class="fa fa-angle-double-right ml-2"></i></a>
-                    </div>
-                </div>
 
-                <div class="col-md-4">
-                    <div class="target-block text-white p-5" data-aos="fade-up" data-aos-duration="550">
-                        <div class="border-line"></div>
-                        <i class="fa fa-book fa-3x color-orange mb-3 target-icon"></i>
-                        <h4 class="font-weight-bold">Library & Lab</h4>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-                        <a href="javascript:" class="btn text-white pl-0">Read More<i
-                                class="fa fa-angle-double-right ml-2"></i></a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
     <!-- end target -->
     <!-- start team -->
     <!-- <section class="our-team text-center bg-light">
@@ -525,83 +449,10 @@
     </section>
     <!-- end video & FAQ -->
     <!-- start event gallery -->
-    <section class="event-gallery bg-light">
-        <div class="sec-title text-center mb-3" data-aos="fade-up" data-aos-duration="550">
-            <span class="title">Our Galleries</span>
-            <h2>Life At Our School</h2>
-            <div class="divider">
-                <span class="fa fa-mortar-board"></span>
-            </div>
-        </div>
-        <div class="autoplay" data-aos="fade-up" data-aos-duration="550">
-            <div>
-                <div class="gallery-item">
-                    <img src="assets/images/event_1.jpg" class="img-fluid" alt="Event">
-                    <div class="content d-flex justify-content-between">
-                        <h5>content</h5>
-                        <i class="fa fa-chevron-circle-right fa-2x"></i>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="gallery-item">
-                    <img src="assets/images/event_2.jpg" class="img-fluid" alt="Event">
-                    <div class="content d-flex justify-content-between">
-                        <h5>content</h5>
-                        <i class="fa fa-chevron-circle-right fa-2x"></i>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="gallery-item">
-                    <img src="assets/images/event_3.jpg" class="img-fluid" alt="Event">
-                    <div class="content d-flex justify-content-between">
-                        <h5>content</h5>
-                        <i class="fa fa-chevron-circle-right fa-2x"></i>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="gallery-item">
-                    <img src="assets/images/event_4.jpg" class="img-fluid" alt="Event">
-                    <div class="content d-flex justify-content-between">
-                        <h5>content</h5>
-                        <i class="fa fa-chevron-circle-right fa-2x"></i>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="gallery-item">
-                    <img src="assets/images/event_5.jpg" class="img-fluid" alt="Event">
-                    <div class="content d-flex justify-content-between">
-                        <h5>content</h5>
-                        <i class="fa fa-chevron-circle-right fa-2x"></i>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="gallery-item">
-                    <img src="assets/images/event_1.jpg" class="img-fluid" alt="Event">
-                    <div class="content d-flex justify-content-between">
-                        <h5>content</h5>
-                        <i class="fa fa-chevron-circle-right fa-2x"></i>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="gallery-item">
-                    <img src="assets/images/event_2.jpg" class="img-fluid" alt="Event">
-                    <div class="content d-flex justify-content-between">
-                        <h5>content</h5>
-                        <i class="fa fa-chevron-circle-right fa-2x"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
     <!-- end event gallery -->
     <!-- start contact us -->
-    <section class="contact-us mt-5">
+    <section class="contact-us mt-5" >
         <div class="container">
             <div class="row">
                 <div class="col-md-12 contact-us-block">

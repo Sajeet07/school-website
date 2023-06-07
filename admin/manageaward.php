@@ -67,7 +67,7 @@ require('inc/sidebar.php');
                     </td>
                     <td><?php echo $data['title']; ?></td>
                     <td><?php echo $data['content']; ?></td>
-                    <td> <img src="../uploads/<?php echo $data['img'];?>" alt="" height="80px;" width="80px;"></td>
+                    <td> <img src="../assets/images/<?php echo $data['img'];?>" alt="" height="80px;" width="80px;">/td>
                   </tr>
                     <?php
                   }

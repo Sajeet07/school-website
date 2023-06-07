@@ -17,7 +17,6 @@
         touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
 }
-
 .slick-list
 {
     position: relative;
@@ -27,6 +26,9 @@
 
     margin: 0;
     padding: 0;
+}
+.suman{
+    margin-top: 122px!important;
 }
 .slick-list:focus
 {

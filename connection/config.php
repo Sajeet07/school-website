@@ -8,5 +8,5 @@
     // if($conn)
     // {
     //     echo "Connection Successful";
-    // }
+    // }$conn=mysqli_connect();
 ?>
